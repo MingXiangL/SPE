@@ -1,4 +1,4 @@
-# Official Code of End-to-End Weakly Supervised Object Detection with Sparse Proposal Evolution
+# End-to-End Weakly Supervised Object Detection with Sparse Proposal Evolution
 
 ## Install
 ```
