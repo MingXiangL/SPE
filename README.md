@@ -5,7 +5,7 @@
 bash install.sh
 ```
 
-## Influence of parameter of augmentation
+## Train & Val
 ```
 python scripts/train.py
 ```
