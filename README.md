@@ -1,4 +1,4 @@
-# Influence of parameter of augmentation and SPE testing on VOC 2007 set
+# Official Code of End-to-End Weakly Supervised Object Detection with Sparse Proposal Evolution
 
 ## Install
 ```
@@ -7,7 +7,7 @@ bash install.sh
 
 ## Influence of parameter of augmentation
 ```
-python scripts/SPE_augmentation_train_test.py
+python scripts/train.py
 ```
 
 Testing on VOC 2007 set
