@@ -1,5 +1,7 @@
 # End-to-End Weakly Supervised Object Detection with Sparse Proposal Evolution
 
+There are some bugs in this project, we will upload the latest version soon!
+
 ## Install
 ```
 bash install.sh
