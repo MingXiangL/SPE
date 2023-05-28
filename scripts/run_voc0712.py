@@ -21,7 +21,7 @@ def run_train(device='0', layer_to_det=24):
                     --fixed_size \
                     --lr_backbone 1e-5 \
                     --lr_cls_head 1e-4 \
-                    --batch_size 2 \
+                    --batch_size 1 \
                     --enc_layers 3 \
                     --layer_to_det {layer_to_det} \
                     --focal_gamma 0.5 \
