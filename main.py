@@ -256,9 +256,6 @@ def main(args):
             evaluate_det_voc(model, criterion, postprocessors,
                         data_loader_val, base_ds, device, args.output_dir, args.output_dir, refine_stage=0)
 
-        # test_stats, coco_evaluator = evaluate_refinements(
-        #     model, criterion, postprocessors, data_loader_val, base_ds, device, args.output_dir, refine_stage=1
-        # )
         if args.output_dir:
             checkpoint_paths = [output_dir / 'checkpoint.pth', output_dir / f'checkpoint{epoch:04}.pth']
             # extra checkpoint before LR drop and every 100 epochs
